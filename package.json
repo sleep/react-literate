@@ -1,0 +1,28 @@
+{
+  "name": "react-literate",
+  "version": "0.0.1",
+  "description": "Literate Programming with React",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sleep/react-literate.git"
+  },
+  "keywords": [
+    "react",
+    "literate",
+    "markdown"
+  ],
+  "author": "Sean Lee <freshdried@gmail.com> (http://slee.xyz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sleep/react-literate/issues"
+  },
+  "homepage": "https://github.com/sleep/react-literate",
+  "dependencies": {
+    "marked": "^0.3.5",
+    "react": "^0.13.3"
+  }
+}
