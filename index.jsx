@@ -38,7 +38,7 @@ export default React.createClass({
 
         let text = obj;
         if (this.props.config.wysiwyg) {
-          text = text.replace(/\n\n/g, '\n<br/>');
+          text = text.replace(/\n\n/g, '\n<br/>\n');
 
           // todo: fix bug of <br/>'s popping up in code blocks'
           // split by triple backticks, replace only noncode blocks (odd numbered) and recombine
